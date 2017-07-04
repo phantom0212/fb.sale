@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="js/jquery.bxslider.css" type="text/css" rel="stylesheet"/>
+<!-- jQuery library (served from Google) -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+  $(document).ready(function () {
+        var slider = $('.slider1').bxSlider({
+			slideWidth: 200,
+			minSlides: 1,
+			maxSlides: 4,
+		 	moveSlides: 1,
+			slideMargin: 10, 
+            mode: 'horizontal', //mode: 'fade',            
+            speed: 500,
+            auto: true,
+            infiniteLoop: true,
+            hideControlOnEnd: true,
+            useCSS: false
+        });
+
+        $(".bx-pager-link").click(function () {
+            console.log('bla');            
+            slider.stopAuto();
+            slider.startAuto();
+        });
+
+  
+  
+});
+</script>
+</head>
+
+<body>
+<h1>Example #1: Standard responsive carousel</h1>
+<div class="slider1">
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
+</div>
+</body>
+</html>

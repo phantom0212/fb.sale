@@ -1,0 +1,20 @@
+<?php
+const CLIP_HOT = 80;
+const HAI_NUOC_NGOAI = 79;
+const DANH_HAI_VIET_NAM = 81;
+const PAGINATE_CATEGORY = 20;
+const FILE_PATH_CLIP_HOT_HOME = '/home/phucnt/a/html/box_clip_hot.html';
+const FILE_PATH_HAI_NUOC_NGOAI_HOME = '/home/phucnt/a/html/box_hai_nuoc_ngoai.html';
+const FILE_PATH_HAI_TRONG_NUOC = '/home/phucnt/a/html/box_hai_trong_nuoc.html';
+const PAGINATE_HOME = 8;
+const PAGINATE_DATA=9;
+const FILE_PATH_ACCESS_TOKEN ='https://apiv1.fb.sale/api/security/token';
+const FILE_PATH_PAGE_DATA ='https://apiv1.fb.sale/api/posts/GetByPage?page=';
+const FILE_PATH_PAGE_ALL_DATA ='https://apiv1.fb.sale/api/shops/';
+const FILE_PATH_ADD_LABEL ='https://apiv1.fb.sale/api/labels';
+const FILE_PATH_LIST_LABEL ='https://apiv1.fb.sale/api/labels/GetByPage?page=1&page_size=12';
+const FILE_PATH_CONFIG ='https://apiv1.fb.sale/api/configs';
+const FILE_PATH_LOGIN ='https://apiv1.fb.sale/api/employees/login';
+const EMPLOYEE_EMAIL = 'doanthanhha258@gmail.com';
+const EMPLOYEE_PASSWORD = 'e10adc3949ba59abbe56e057f20f883e';
+const FILE_PATH_LIST_SHOP ='https://apiv1.fb.sale/api/pages/GetByPage?page=1&page_size=10';

@@ -1,0 +1,96 @@
+/*================== hệ thống màu==========*/
+
+.bg_Green {
+    background: #2a6e05;
+}
+
+.bg_Red {
+    background: #FE2712;
+}
+
+.bg_Orange {
+    background: #FD5308;
+}
+
+.bg_Yellow {
+    background: #fb9902;
+}
+
+.bg_Blue {
+    background: #0247fe;
+}
+
+.bg_Purple {
+    background: #8601AF;
+}
+
+
+.cl-red{
+    color: #FE2712;
+}
+/* = = Green --------*/
+
+.box_green .bg-header {
+    background: #2a6e05 !important;
+}
+
+.box_green .list-store .avata-store span {
+    background: #2a6e05 !important;
+}
+
+.box_green .btViewDetail:hover {
+    background: #2a6e05 !important;
+    color: #fff;
+}
+
+.box_green .list-store .content h2 a:hover,
+.box_green .dropdown-menu > li > a:hover, .box_green .dropdown-menu > li > a:focus {
+    color: #2a6e05;
+}
+
+.box_green .menu2 .navbar-nav > li .dropdown-menu > li:hover {
+    background: #2a6e05;
+    color: #fff;
+}
+
+.box_green .menu2 .navbar-nav > li.active a {
+    background: #fff;
+    color: #2a6e05;
+    font-weight: bold;
+}
+
+.box_green .box-notifile .lable {
+    background: #2a6e05;
+}
+
+
+.box_green .breadcrumb-main .addPro:after {
+    position: absolute;
+    top: 18%;
+    left: -9px;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #fff;
+    content: "";
+}
+
+.box_green .breadcrumb-main a:hover {
+    float: left;
+    color: #fff;
+    background: #2a6e05;
+    font-size: 15px;
+    border: 1px solid #2a6e05;
+}
+
+.box_green .breadcrumb-main .addPro:hover:before,.box_green .breadcrumb-main .addPro:hover:after {
+    border-right: 10px solid #2a6e05;
+}
+
+.box_green .boxSearch button:hover {
+    background: #2a6e05;
+    color: #fff;
+}
+.box_green .boxfiter
+{
+    background: #2a6e05;
+}
